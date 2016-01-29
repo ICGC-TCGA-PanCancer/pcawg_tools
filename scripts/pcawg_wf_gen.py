@@ -813,7 +813,7 @@ if __name__ == "__main__":
     #parser_upload.add_argument("--keyfile", default="/keys/cghub.key")
     parser_upload.add_argument("--out-base", default="pcawg_data")
     parser_upload.add_argument("--pipeline-src", default="https://github.com/ucscCancer/pcawg_tools")
-    parser_upload.add_argument("--pipeline-version", default="1.1.0")
+    parser_upload.add_argument("--pipeline-version", default="1.2.0")
     parser_upload.add_argument("--pipeline-name", default="BROAD_MUSE_PIPELINE")
     parser_upload.add_argument("--server-filter", default=None)
     parser_upload.add_argument("--study", default="tcga_pancancer_vcf")
